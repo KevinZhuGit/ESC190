@@ -1,0 +1,15 @@
+de;Beef Banana Tea;$1803.62
+Vn;Deconstructed Beef Sandwich;$1746.48
+Ml;Roasted Lettuce Egg Cocktail;$1166.86
+Z5;Noodle Salad;$963.43
+up;Noodle Beef Juice;$1559.30
+
+
+
+
+
+
+
+
+
+

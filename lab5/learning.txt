@@ -1,0 +1,2 @@
+REALLOC(address to thing that needs to be realloced, size of space needed)
+    ex: if have pointers to objects than need sizeof(Struct *)*length

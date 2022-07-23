@@ -1,0 +1,27 @@
+task 2:
+    values of *ptr_xy = 0
+    values of **pptr_xy = 0
+    values of *pptr_xy = &ptr_xy
+
+    can have x and y point to the same location, however cant have the same spot in memory
+
+task 3:
+    int x[], x acts as pointer to start of the array
+    accessing space outside of arr is undefined, will assign rand number (changes through code)
+    assigning spot outside array is possible
+
+task 4:
+    -g flag allows valgrind to track lines for memory missusage
+
+task 5:
+    (from q = p) pointer q gets reassinged the same address as that in p
+        old memory block is still there, but no pointer to it so cant clear through free()
+        free() clears everything at the mem address
+
+    to fix use new var to copy p, or free(q) before copying
+
+task 7:
+    if int *x was parameter, would be able to reallocate size of arr, but wont be able to change parts of the arr
+        does not have **x ability to go inside the values of arr
+    
+    if int n was parameter, would not be able to update outside n

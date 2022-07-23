@@ -1,0 +1,25 @@
+*** how to round ***
+double value = (int) (var * 100 + 0.5);
+return value / 100;
+    integer typecast - always rounds down to floor
+
+or round through %.2f which has regular rounding
+
+
+
+*** compiling ***
+need both main file and file w/ functions to run, must compile together
+    gcc file1.c file2.c // will auto output to a.exe
+    can run ./a.exe
+
+    or
+
+    gcc file1.c file2.c -o outputfile.exe
+    ./outputfile
+can only have one int main(){} function in all files
+
+
+*** misc ***
+changing directories
+cd filename moves down a directory
+cd..  moves up a level
